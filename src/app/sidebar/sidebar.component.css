@@ -1,0 +1,76 @@
+.sidebar
+{
+    position: relative;
+    left: 200px;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'ABeeZee';
+    overflow-y: auto;
+    max-width: 500px;
+    min-width: 300px;
+    overflow-x: hidden;
+}
+
+#itemlist
+{
+    padding: 15px;
+    border : 1px solid blue;
+    max-width: 400px;
+}
+
+#itemname
+{
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 10px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+#itemcount
+{
+    background: rgb(30, 255, 0);
+    color: rgb(0, 0, 0);
+    max-height: 8px;
+    max-width: 8px;
+    padding: 10px;
+    font-size: 10pt;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#qtybtn
+{
+    background: blue;
+    color: white;
+    font-size: 10pt;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#qtybtn:disabled
+{
+    background: rgb(155, 155, 155);
+}
+
+#deletebtn
+{
+    background: blue;
+    color: white;
+    padding: 10px;
+    font-size: 10pt;
+    border-radius: 5px;
+}
+
+input
+{
+    padding: 10px;
+    margin: 5px;
+    font-size: 10pt;
+    border-radius: 5px;
+
+}
+
+input:focus{
+    outline: none;
+}

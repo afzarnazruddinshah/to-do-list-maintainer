@@ -1,0 +1,29 @@
+<div class="sidebar">
+
+    <p> Enter your To-do Item:</p>
+    <input type="text" name="todoitem" placeholder="Enter an Item" [(ngModel)] = "toDoItem"/>
+    <input type="button" value="Add Item" (click)="addToList()">
+    | 
+
+    <input type="button" value="Reset ToDoList" (click)="resetList()">
+
+
+    <p>Your To-Do-List Here ({{ listSize}}) :</p>
+        <p id="itemlist" *ngFor="let item of toDoList">
+          <span id="itemname">  {{ item.itemName }} </span> 
+            &nbsp;
+            <span id="itemcount"> {{ item.count }} </span>
+            &nbsp;
+            <button type="button" id="qtybtn" (click)="addQty(item)">+ </button> &nbsp;
+            <button type="button" id="qtybtn" (click)="subQty(item)" [disabled]="subqtydisabled(item)">- </button> &nbsp;
+            <button type="button" id="deletebtn" (click)="delItem(item)">Delete </button>
+            <br />
+             
+        </p>
+       
+
+    
+
+
+</div>
+
