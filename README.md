@@ -1,6 +1,9 @@
 # Meanstackproj
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
+
+## Instructions to Run this Application
+
 This project is a simple single module Angular Application.
 All you have to do is open the cmd prompt in the project directory and run 'ng serve -o' and this will run the application in 'localhost:4200'
 
